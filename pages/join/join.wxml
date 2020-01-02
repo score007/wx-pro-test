@@ -1,0 +1,14 @@
+<view class="join-header">
+  <image class="join-log" src="/images/join-header.jpg"></image>
+</view>
+
+<view class="join-main" wx:for="{{join}}">
+  <view class="about-us">{{item.about}}</view>
+  <text class="join-content">{{item.content}}</text>
+</view>
+
+<view class="join-footer">
+  <image src="/images/weixin.jpg" class="join-QR"></image>
+  <view></view>
+  <button class="join-btn" bindtap="tell">电话咨询</button>
+</view>

@@ -1,0 +1,32 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/join/join"
+
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#1296db",
+    "navigationBarTitleText": "微信小程序demo ",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+"tabBar": {
+  "selectedColor": "#1296db",
+  "list": [{
+    "pagePath": "pages/index/index",
+    "text": "首页",
+    "iconPath": "images/home_normal.png",
+    "selectedIconPath": "images/home_selected.png"
+  },
+  {
+    "pagePath": "pages/join/join",
+    "text": "加入",
+    "iconPath": "images/join_normal.png",
+    "selectedIconPath": "images/join_selected.png"
+  }
+ ]
+}
+}

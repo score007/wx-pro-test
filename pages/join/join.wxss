@@ -1,0 +1,59 @@
+.join-header{
+  display: block;
+  width: 100%;
+  height: 340rpx;
+  border-bottom: solid 1px lightgrey;
+}
+
+.join-log{
+  width: 100%;
+  height: 100%;
+}
+.join-main{
+  width: 100%;
+  }
+
+.about-us{
+  color:#1296db;
+  font-size: 30rpx;
+  display: block;
+  width: 100%;
+  height: 60rpx;
+  text-indent: 1em;
+  line-height: 60rpx;
+
+}
+
+.about-us::after{
+  content: '';
+  width: 10rpx;
+  height: 40rpx;
+  background-color: #1296db;
+  display: block;
+  float: left;
+  margin: 10rpx 0 0 20rpx;
+  
+}
+
+.join-content{
+  text-align: left;
+  font-size: 24rpx;
+  text-indent:20rpx;
+}
+
+.join-QR{
+  display: block;
+  margin:0 auto;
+  width: 500rpx;
+  height: 500rpx;
+}
+
+.join-btn{
+  width: 100%;
+}
+.join-btn:active{
+  color: #1296db;
+}
+.join-btn:not([size='mini']){
+  width: 100%;
+}
